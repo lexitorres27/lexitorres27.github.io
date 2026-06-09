@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swirl Ice Cream</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, #ffd6ea, #fff0f7);
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#ffb6d9;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.title-logo{
+    width:350px;
+    max-width:90%;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    color:#555;
+    max-width:700px;
+    margin:auto;
+}
+
+/* Image Gallery */
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+    padding:50px 20px;
+}
+
+.gallery img{
+    width:350px;
+    max-width:90%;
+    border-radius:20px;
+    background:white;
+    padding:15px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+
+/* CTA */
+.cta{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.cta button{
+    background:#ff69b4;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:1.1rem;
+    border-radius:50px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.cta button:hover{
+    background:#d63384;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#ffb6d9;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <!-- Third Photo Used as Website Title -->
+    <img src="logo3.png" alt="Swirl Logo" class="title-logo">
+</header>
+
+<section class="hero">
+    <h1>Welcome to Swirl</h1>
+    <p>
+
+    </p>
+</section>
+
+<section class="gallery">
+    <!-- First Photo -->
+    <img src="logo1.png" alt="Swirl Ice Cream Logo">
+
+    <!-- Second Photo -->
+    <img src="logo2.png" alt="Swirl Cone Logo">
+</section>
+
+<section class="cta">
+    <button>Order Now</button>
+</section>
+
+<footer>
+    <p>© 2025 Swirl Ice Cream. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
